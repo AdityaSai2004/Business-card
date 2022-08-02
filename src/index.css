@@ -111,8 +111,10 @@ body {
   width: 430px;
 }
 
-.footer {
-  text-align: center;
+.footers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .footer a {
@@ -128,10 +130,18 @@ body {
     #d6249f 60%,
     #285aeb 90%
   );
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .bi-facebook {
   background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .bi-linkedin {
   background-color: white;
+}
+
+.footer a:hover {
+  transform: scale(2);
 }
