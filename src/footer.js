@@ -2,11 +2,7 @@ import React from "react";
 import "./index.css";
 export default function Footer() {
   return (
-<<<<<<< HEAD
-    <div className="socials">
-=======
     <div className="footers">
->>>>>>> 200f4821cd0dbb2aa3f12928e784140fc498e662
       <footer>
         <a href="https://twitter.com/adityasai2004">
           <svg
